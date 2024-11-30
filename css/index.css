@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chirldren {
+    width: 1300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.block_chirdren {
+    display: flex;
+    gap: 20px;
+}
+
+.block__children {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.btn {
+    width: 244px;
+    height: 53px;
+    cursor: pointer;
+    background-color: #C4C4C4;
+    border: none;
+}
+
+p {
+    color: #979797;
+    font-size: 18px;
+}
+
+.chirldren2 {
+    width: 1300px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.block_children2 {
+    background-color: #C4C4C4;
+    width: 412px;
+    height: 281px;
+}
+
+.block {
+    display: flex;
+    gap: 15px;
+    margin: 0px auto;
+    width: 1300px;
+    margin-top: 60px;
+}
+
+.box {
+    width: 412px;
+    height: 572px;
+    background-color: #C4C4C4;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    width: 839px;
+    height: 281px;
+    background-color: #C4C4C4;
+}
+
+.item2 {
+    display: flex;
+    gap: 13px;
+}
+
+.mini_box {
+    background-color: #C4C4C4;
+    width: 199.5px;
+    height: 281px;
+}
+
+.chirldren4 {
+    width: 1300px;
+    display: flex;
+    gap: 15px;
+    margin-top: 60px;
+}
+
+.chirldren4_block {
+    width: 412px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_childredn4 {
+    background-color: #C4C4C4;
+    width: 412px;
+    height: 324px;
+}
+
+.bottom {
+    background-color: #000000;
+    width: 412px;
+    height: 219px;
+    padding: 25px;
+}
+
+.bottom p:nth-child(1) {
+    font-size: 24px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    .wrapper {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .chirldren {
+        width: 100%;
+        margin: 0px a;
+    }
+
+    .block_chirdren {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .block_chirdren img:nth-child(1) {
+        width: 387px;
+        height: 205px;
+    }
+    
+    .block_chirdren img:nth-child(2) {
+        width: 387px;
+        height: 205px;
+    }
+
+    .block__children {
+        width: 80%;
+        font-size: 14px;
+    }
+}
